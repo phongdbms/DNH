@@ -1,0 +1,172 @@
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\DaiNamHungProject.dll.config
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\DaiNamHungProject.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\DaiNamHungProject.pdb
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csc.exe
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csc.exe.config
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csc.rsp
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csi.exe
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csi.exe.config
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csi.rsp
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.AppContext.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Collections.Immutable.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Console.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.Compression.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.FileSystem.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.Pipes.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.AccessControl.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Claims.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.ValueTuple.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Xml.XPath.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\vbc.exe
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\vbc.exe.config
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\vbc.rsp
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\VBCSCompiler.exe
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\roslyn\VBCSCompiler.exe.config
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\Antlr3.Runtime.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.Web.Infrastructure.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\Newtonsoft.Json.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Net.Http.Formatting.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Helpers.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Http.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Http.WebHost.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Mvc.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Optimization.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Razor.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.Deployment.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.Razor.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\WebGrease.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Helpers.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Mvc.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Optimization.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Razor.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.Deployment.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.Razor.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\Newtonsoft.Json.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\Antlr3.Runtime.pdb
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Net.Http.Formatting.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Http.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Http.WebHost.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.csprojAssemblyReference.cache
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.csproj.CoreCompileInputs.cache
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.csproj.CopyComplete
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.dll
+D:\C# Project\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.pdb
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\DaiNamHungProject.dll.config
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\DaiNamHungProject.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\DaiNamHungProject.pdb
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csc.exe
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csc.exe.config
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csc.rsp
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csi.exe
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csi.exe.config
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\csi.rsp
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.AppContext.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Collections.Immutable.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Console.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.Compression.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.FileSystem.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.IO.Pipes.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.AccessControl.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Claims.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.ValueTuple.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Xml.XPath.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\vbc.exe
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\vbc.exe.config
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\vbc.rsp
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\VBCSCompiler.exe
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\roslyn\VBCSCompiler.exe.config
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\Antlr3.Runtime.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.Web.Infrastructure.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\Newtonsoft.Json.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Net.Http.Formatting.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Helpers.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Http.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Http.WebHost.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Mvc.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Optimization.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Razor.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.Deployment.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.Razor.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\WebGrease.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Helpers.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Mvc.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Optimization.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Razor.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.Deployment.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.WebPages.Razor.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\Newtonsoft.Json.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\Antlr3.Runtime.pdb
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Net.Http.Formatting.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Http.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Web.Http.WebHost.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DNH\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.csprojAssemblyReference.cache
+D:\DNH\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.csproj.CoreCompileInputs.cache
+D:\DNH\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.csproj.CopyComplete
+D:\DNH\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.dll
+D:\DNH\DaiNamHungProject\DaiNamHungProject\obj\Debug\DaiNamHungProject.pdb

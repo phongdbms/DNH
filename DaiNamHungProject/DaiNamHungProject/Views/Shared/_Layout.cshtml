@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CÔNG TY TNHH MTV ĐẠI NAM HƯNG</title>
+    <!--meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="D BUSINESS Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <!--//meta tags ends here-->
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+
+    <!-- bootstrap style sheet -->
+   <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--smooth box-->
+    <link rel="stylesheet" href="~/Content/css/smoothbox.css" type='text/css' media="all" />
+    <!--stylesheets-->
+   <link href="~/Content/css/style.css" rel='stylesheet' type='text/css' media="all">
+    <!-- flexslider -->
+    <link rel="stylesheet" href="~/Content/css/flexslider.css" type="text/css" media="all" />
+    <!-- fontawesome -->
+   <link href="~/Content/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Popup css (for Video Popup) -->
+   <link href="~/Content/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+
+   <link href="//fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
+   <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        @Html.Action("Index", "Menu")
+    </header>
+
+    <!-- Banner slider -->
+    @Html.Action("Index", "BannerSlider")
+    <!-- //Banner slider -->
+    <!-- Hotel -->
+    @Html.Action("Index", "Hotel")
+    <!-- //Hotel -->
+    <!-- Buffet -->
+    @Html.Action("Index", "Buffet")
+    <!-- //Buffet -->
+    <!-- Buffet -->
+    @Html.Action("Index", "Karaoke")
+    <!-- //Buffet -->
+    <!-- Contact -->
+    @Html.Action("Index", "Contact")
+    <!-- //Contact -->
+    <!-- Map -->
+    @Html.Action("Index", "Map")
+    <!-- //Map -->
+    <!-- Footer -->
+    @Html.Action("Index","Footer")
+    <!-- //Footer -->
+    <div class="container body-content">
+        @RenderBody()
+
+    </div>
+
+    @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)*@
+
+    <script src="~/Content/js/jquery.min.v3.js"></script>
+
+    <script src="~/Content/js/jquery-2.2.3.min.js"></script>
+
+    <!-- karaoke -->
+    <script src="~/Content/js/smoothbox.jquery2.js"></script>
+    <!-- //karaoke -->
+    <!-- pop-up(for video popup)-->
+    <script src="~/Content/js/jquery.magnific-popup.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+        });
+    </script>
+    <!-- //pop-up-box (syllabus section video)-->
+    <!-- video js (background) -->
+    <script src="~/Content/js/jquery.vide.min.js"></script>
+    <!-- //video js (background) -->
+    <!-- banner Slider script  -->
+    <script src="~/Content/js/responsiveslides.min.js"></script>
+    <script>
+        $(function () {
+            $("#slider, #slider1").responsiveSlides({
+                auto: true,
+                nav: false,
+                speed: 1500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+    <!-- //banner Slider-JavaScript -->
+    <script src="~/Content/js/responsiveslides.min.js"></script>
+    <script>
+        $(function () {
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: false,
+                speed: 1000,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+        });
+    </script>
+
+
+
+    <!-- start-smooth-scrolling -->
+    <script src="~/Content/js/move-top.js"></script>
+    <script src="~/Content/js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="~/Content/js/SmoothScroll.min.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- FlexSlider-JavaScript -->
+    <script defer src="~/Content/js/jquery.flexslider.js"></script>
+    <script>
+        $(function () {
+            SyntaxHighlighter.all();
+        });
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+    <!-- //FlexSlider-JavaScript -->
+
+    <script src="~/Content/js/bootstrap.min.js"></script>
+
+</body>
+</html>

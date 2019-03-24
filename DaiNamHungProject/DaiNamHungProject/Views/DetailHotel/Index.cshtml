@@ -1,0 +1,229 @@
+﻿
+@{
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CÔNG TY TNHH MTV ĐẠI NAM HƯNG</title>
+    <!--meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="D BUSINESS Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <!--//meta tags ends here-->
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+
+    <!-- bootstrap style sheet -->
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--smooth box-->
+    <link rel="stylesheet" href="~/Content/css/smoothbox.css" type='text/css' media="all" />
+    <!--stylesheets-->
+    <link href="~/Content/css/style.css" rel='stylesheet' type='text/css' media="all">
+    <!-- flexslider -->
+    <link rel="stylesheet" href="~/Content/css/flexslider.css" type="text/css" media="all" />
+    <!-- fontawesome -->
+    <link href="~/Content/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Popup css (for Video Popup) -->
+    <link href="~/Content/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link href="//fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        @Html.Action("Index", "Menu")
+    </header>
+    <div class="container">
+        <br />
+        <div class="h3-head text-center">
+            <h3 class="title-1">KHÁCH SẠN VALENTINE</h3>
+        </div>
+        <div class="row py-3">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-11 about-content">
+                <h6 class="about-text-h6h" style="text-align:left">Địa chỉ: 63/1A Kha Vạn Cân, Đường 36 , Bến đò Bình Quới, Thủ Đức.</h6>
+                <h6 class="about-text-h6h" style="text-align:left">Điện thoại (028) 37205232.</h6>
+                @*<h6 class="about-text-h6h">Với 15 phòng sang trọng , lãng mạng . Tọa lạc biệt lập bên dòng sông Sài Gòn thơ mộng.</h6>*@
+                <p class="about-text-p" style="text-align:left">
+                    Với 15 phòng sang trọng , lãng mạng . Tọa lạc biệt lập bên dòng sông Sài Gòn thơ mộng. Nội thất  đạt tiêu chuẩn 3 sao , cảnh quang rộng thoáng, không khí trong lành, dịch vụ chuyên nghiệp .
+                    <br />
+                    Valentine Hotel  sẽ là điểm nghỉ ngơi , thư giãn thú vị các cặp uyên ương trước và sau ngày cưới .
+                </p>
+                <br />
+
+                <div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel1.jpg" alt="image">
+                </div>
+                <div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel3.jpg" alt="image">
+                </div>
+                <div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel4.jpg" alt="image">
+                </div>
+                @*<div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel5.jpg" alt="image">
+                </div>
+                <div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel6.jpg" alt="image">
+                </div>*@
+                <div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel7.jpg" alt="image">
+                </div>
+                <div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel8.jpg" alt="image">
+                </div>
+                <div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel9.jpg" alt="image">
+                </div>
+                <div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel10.jpg" alt="image">
+                </div>
+                <div class="col-md-8 about-img" style="text-align:center">
+                    <img src="~/Content/images/hotel11.jpg" alt="image">
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+        @*@Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @RenderSection("scripts", required: false)*@
+
+        <script src="~/Content/js/jquery.min.v3.js"></script>
+
+        <script src="~/Content/js/jquery-2.2.3.min.js"></script>
+
+        <!-- karaoke -->
+        <script src="~/Content/js/smoothbox.jquery2.js"></script>
+        <!-- //karaoke -->
+        <!-- pop-up(for video popup)-->
+        <script src="~/Content/js/jquery.magnific-popup.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('.popup-with-zoom-anim').magnificPopup({
+                    type: 'inline',
+                    fixedContentPos: false,
+                    fixedBgPos: true,
+                    overflowY: 'auto',
+                    closeBtnInside: true,
+                    preloader: false,
+                    midClick: true,
+                    removalDelay: 300,
+                    mainClass: 'my-mfp-zoom-in'
+                });
+
+            });
+        </script>
+        <!-- //pop-up-box (syllabus section video)-->
+        <!-- video js (background) -->
+        <script src="~/Content/js/jquery.vide.min.js"></script>
+        <!-- //video js (background) -->
+        <!-- banner Slider script  -->
+        <script src="~/Content/js/responsiveslides.min.js"></script>
+        <script>
+            $(function () {
+                $("#slider, #slider1").responsiveSlides({
+                    auto: true,
+                    nav: false,
+                    speed: 1500,
+                    namespace: "callbacks",
+                    pager: true,
+                });
+            });
+        </script>
+        <!-- //banner Slider-JavaScript -->
+        <script src="~/Content/js/responsiveslides.min.js"></script>
+        <script>
+            $(function () {
+                $("#slider4").responsiveSlides({
+                    auto: true,
+                    pager: true,
+                    nav: false,
+                    speed: 1000,
+                    namespace: "callbacks",
+                    before: function () {
+                        $('.events').append("<li>before event fired.</li>");
+                    },
+                    after: function () {
+                        $('.events').append("<li>after event fired.</li>");
+                    }
+                });
+            });
+        </script>
+
+
+
+        <!-- start-smooth-scrolling -->
+        <script src="~/Content/js/move-top.js"></script>
+        <script src="~/Content/js/easing.js"></script>
+        <script>
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    event.preventDefault();
+
+                    $('html,body').animate({
+                        scrollTop: $(this.hash).offset().top
+                    }, 1000);
+                });
+            });
+        </script>
+        <!-- //end-smooth-scrolling -->
+        <!-- smooth-scrolling-of-move-up -->
+        <script>
+            $(document).ready(function () {
+                /*
+                var defaults = {
+                    containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear'
+                };
+                */
+
+                $().UItoTop({
+                    easingType: 'easeOutQuart'
+                });
+
+            });
+        </script>
+        <script src="~/Content/js/SmoothScroll.min.js"></script>
+        <!-- //smooth-scrolling-of-move-up -->
+        <!-- FlexSlider-JavaScript -->
+        <script defer src="~/Content/js/jquery.flexslider.js"></script>
+        <script>
+            $(function () {
+                SyntaxHighlighter.all();
+            });
+            $(window).load(function () {
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    start: function (slider) {
+                        $('body').removeClass('loading');
+                    }
+                });
+            });
+        </script>
+        <!-- //FlexSlider-JavaScript -->
+
+        <script src="~/Content/js/bootstrap.min.js"></script>
+
+</body>
+</html>
