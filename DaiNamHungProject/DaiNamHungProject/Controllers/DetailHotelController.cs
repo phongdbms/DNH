@@ -13,5 +13,23 @@ namespace DaiNamHungProject.Controllers
         {
             return View();
         }
+
+        public ActionResult Menu()
+        {
+            return View();
+        }
+
+        public ActionResult Content()
+        {
+            return View();
+        }
+        public ActionResult Map()
+        {
+            return View();
+        }
+        public ActionResult Promotion()
+        {
+            return View();
+        }
     }
 }

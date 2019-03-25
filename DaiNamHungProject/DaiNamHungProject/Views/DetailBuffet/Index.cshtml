@@ -1,12 +1,19 @@
-﻿<!DOCTYPE html>
+﻿
+@{
+/**/
+Layout = null;
+}
+
+<!DOCTYPE html>
+
 <html>
 <head>
-    <title>CÔNG TY TNHH MTV ĐẠI NAM HƯNG</title>
+    <meta name="viewport" content="width=device-width" />
+    <title>Buffet Chay Sala</title>
     <!--meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="D BUSINESS Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <meta name="keywords" content="" />
     <!--//meta tags ends here-->
     <script>
         addEventListener("load", function () {
@@ -35,84 +42,22 @@
 
 </head>
 <body>
+
     <header>
-        @Html.Action("Menu", "MainPage")
+        @Html.Action("Menu", "DetailHotel")
     </header>
-
-    <!-- Banner slider -->
-    @Html.Action("BannerSlider", "MainPage")
-    <!-- //Banner slider -->
-    <!-- Hotel -->
-    @Html.Action("Hotel", "MainPage")
-    <!-- //Hotel -->
-    <!-- Buffet -->
-    @Html.Action("Buffet", "MainPage")
-    <!-- //Buffet -->
-    <!-- Buffet -->
-    @Html.Action("Karaoke", "MainPage")
-    <!-- //Buffet -->
-    <!-- Contact -->
-    @Html.Action("Contact", "MainPage")
-    <!-- //Contact -->
-    <!-- Map -->
+    @Html.Action("Content", "DetailBuffet")
     @Html.Action("Map", "MainPage")
-    <!-- //Map -->
-    <div class="container body-content">
-        @RenderBody()
-
-    </div>
-    
-    <!-- Footer -->
+    @Html.Action("Promotion", "MainPage")
     @Html.Action("Footer", "MainPage")
-    <!-- //Footer -->
-    @*@Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        @RenderSection("scripts", required: false)*@
+
+
+
 
     <script src="~/Content/js/jquery.min.v3.js"></script>
 
     <script src="~/Content/js/jquery-2.2.3.min.js"></script>
 
-    <!-- karaoke -->
-    <script src="~/Content/js/smoothbox.jquery2.js"></script>
-    <!-- //karaoke -->
-    <!-- pop-up(for video popup)-->
-    <script src="~/Content/js/jquery.magnific-popup.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $('.popup-with-zoom-anim').magnificPopup({
-                type: 'inline',
-                fixedContentPos: false,
-                fixedBgPos: true,
-                overflowY: 'auto',
-                closeBtnInside: true,
-                preloader: false,
-                midClick: true,
-                removalDelay: 300,
-                mainClass: 'my-mfp-zoom-in'
-            });
-
-        });
-    </script>
-    <!-- //pop-up-box (syllabus section video)-->
-    <!-- video js (background) -->
-    <script src="~/Content/js/jquery.vide.min.js"></script>
-    <!-- //video js (background) -->
-    <!-- banner Slider script  -->
-    <script src="~/Content/js/responsiveslides.min.js"></script>
-    <script>
-        $(function () {
-            $("#slider, #slider1").responsiveSlides({
-                auto: true,
-                nav: false,
-                speed: 1500,
-                namespace: "callbacks",
-                pager: true,
-            });
-        });
-    </script>
-    <!-- //banner Slider-JavaScript -->
     <script src="~/Content/js/responsiveslides.min.js"></script>
     <script>
         $(function () {
@@ -167,22 +112,7 @@
     </script>
     <script src="~/Content/js/SmoothScroll.min.js"></script>
     <!-- //smooth-scrolling-of-move-up -->
-    <!-- FlexSlider-JavaScript -->
-    <script defer src="~/Content/js/jquery.flexslider.js"></script>
-    <script>
-        $(function () {
-            SyntaxHighlighter.all();
-        });
-        $(window).load(function () {
-            $('.flexslider').flexslider({
-                animation: "slide",
-                start: function (slider) {
-                    $('body').removeClass('loading');
-                }
-            });
-        });
-    </script>
-    <!-- //FlexSlider-JavaScript -->
+
     <script src="~/Content/js/bootstrap.min.js"></script>
 
 </body>

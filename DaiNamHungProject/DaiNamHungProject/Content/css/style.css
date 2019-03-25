@@ -3,12 +3,83 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+/*
+    class special text
+*/
+.sala{
 
+}
+.hotel{
+
+}
+.restaurant{
+
+}
+.karaoke{
+
+}
+.main_slogan{
+
+}
+/*
+    class special text
+*/
+.footer_1its {
+    background: #007D3D;
+}
+    .footer_1its h3 {
+        font-size: 1.5em;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+.footer-text input[type="email"] {
+    outline: none;
+    padding: 12px 15px;
+    color: #fff;
+    font-size: 13px;
+    width: 85%;
+    border: none;
+    background: none;
+    letter-spacing: 1px;
+}
+::placeholder {
+    color: #fff;
+    opacity:1;
+}
+.footer-grid_section_1its form {
+    border: 1px solid #fff;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+button.btn1 {
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    float: right;
+    width: 15%;
+}
+.footer_1its p, .footer_1its a {
+        color: #fff;
+        margin: 8px 0;
+}
 body {
     padding: 0;
     margin: 0;
     letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body a {
@@ -38,7 +109,7 @@ input[type="submit"] {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 select,
@@ -48,7 +119,7 @@ input[type=password],
 input[type="button"],
 input[type="submit"],
 textarea {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -72,10 +143,10 @@ p {
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 17px;
     color: #6f6b6b;
     line-height: 1.8em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 ul {
@@ -120,16 +191,21 @@ h3.title-1 {
     font-size: 45px;
     color: #007D3D;
     text-transform: uppercase;
-    font-family: 'PT Serif', serif;
+    font-family: 'Arial', serif;
 }
 
 h3.title-2 {
     font-size: 45px;
     color: #007D3D;
     text-transform: uppercase;
-    font-family: 'PT Serif', serif;
+    font-family: 'Arial', serif;
 }
-
+h3.title-3 {
+    font-size: 45px;
+    color: #efb14f;
+    text-transform: uppercase;
+    font-family: 'Arial', serif;
+}
 /*-- nav --*/
 
 .navbar-light .navbar-brand {
@@ -770,7 +846,7 @@ a.sb {
 /*-- team --*/
 
 .w3-team {
-    background-color: #efb14f;
+    background-color: #C00000;
 }
 
 .w3-team-head h3 {
@@ -927,7 +1003,7 @@ button.btn.btn-primary1 {
 }
 
 button.btn.btn-primary2 {
-    width: 30%;
+    width: 15%;
     margin-left:40%;
     background-color: #007D3D;
     border-color: #007D3D;
@@ -935,7 +1011,7 @@ button.btn.btn-primary2 {
 }
 
 button.btn.btn-primary3 {
-    width: 30%;
+    width: 15%;
     margin-right:70%;
     background-color: #007D3D;
     border-color: #007D3D;
@@ -1348,6 +1424,7 @@ footer {
 	
     .dropdown-item {
         text-align: center;
+        
     }
     p.about-text-p.text-center {
         font-size: 15px;

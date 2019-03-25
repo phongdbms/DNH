@@ -6,10 +6,15 @@ using System.Web.Mvc;
 
 namespace DaiNamHungProject.Controllers
 {
-    public class BannerSliderController : Controller
+    public class DetailBuffetController : Controller
     {
-        // GET: BannerSlide
+        // GET: DetailBuffet
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Content()
         {
             return View();
         }
