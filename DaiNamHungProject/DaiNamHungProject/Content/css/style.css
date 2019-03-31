@@ -6,24 +6,49 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 /*
     class special text
 */
-.sala{
-
+@font-face {
+    font-family: 'vni-brush';
+    src: url('../webfonts/vni.common.VBRUSH.ttf') format('truetype');
 }
-.hotel{
-
+@font-face {
+    font-family: 'vni-cooper';
+    src: url('../webfonts/VCOOPERB.TTF') format('truetype');
 }
-.restaurant{
 
+@font-face {
+    font-family: 'vni-times';
+    src: url('../webfonts/vni.common.VTIMESB.ttf') format('truetype');
 }
-.karaoke{
-
+.sala {
+    font-family: vni-brush;
+    text-transform: capitalize;
+    color: white;
 }
-.main_slogan{
-
+.sala_content {
+    font-family: vni-brush;
+    text-transform: none;
+    color: #FFF100;
+}
+.buffetchay {
+    font-family: vni-cooper;
+    color: #FFF100;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: .05em;
+}
+.dainamhung {
+    font-family: vni-times;
+    color: #C00000;
 }
 /*
     class special text
 */
+.img_main_buffet{
+    height:300px
+}
+a{
+    color:white;
+}
 .footer_1its {
     background: #007D3D;
 }
@@ -45,7 +70,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     letter-spacing: 1px;
 }
 ::placeholder {
-    color: #fff;
+    color: #212121;
     opacity:1;
 }
 .footer-grid_section_1its form {
@@ -202,9 +227,10 @@ h3.title-2 {
 }
 h3.title-3 {
     font-size: 45px;
-    color: #efb14f;
+    color: #FFF100;
     text-transform: uppercase;
-    font-family: 'Arial', serif;
+    /*font-family: 'Arial', serif;*/
+    display:block;
 }
 /*-- nav --*/
 
@@ -423,7 +449,7 @@ p.banner-text-p {
 
 h3.banner-text-h3 {
     color: #C00000;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 45px;
     letter-spacing: .05em;
 }
@@ -846,7 +872,7 @@ a.sb {
 /*-- team --*/
 
 .w3-team {
-    background-color: #C00000;
+    background-color: #007D3D;
 }
 
 .w3-team-head h3 {
@@ -1017,7 +1043,27 @@ button.btn.btn-primary3 {
     border-color: #007D3D;
     color: #fff;
 }
-
+button.btn.btn-primary4 {
+    width: 15%;
+    margin-left: 40%;
+    background-color: #FFF100;
+    border-color: #FFF100;
+    color: #007D3D;
+}
+button.btn.btn-primary5 {
+    width: 20%;
+    margin-right: 70%;
+    background-color: #007D3D;
+    border-color: #007D3D;
+    color: #fff;
+}
+button.btn.btn-primary3 {
+    width: 15%;
+    margin-right: 70%;
+    background-color: #007D3D;
+    border-color: #007D3D;
+    color: #fff;
+}
 .btn-primary1:hover {
     color: #fff;
     background-color: #007D3D;
@@ -1031,6 +1077,16 @@ btn-primary2:hover {
 }
 
 .btn-primary3:hover {
+    color: #fff;
+    background-color: #007D3D;
+    border-color: #007D3D;
+}
+.btn-primary4:hover {
+    color: #fff;
+    background-color: #007D3D;
+    border-color: #007D3D;
+}
+.btn-primary5:hover {
     color: #fff;
     background-color: #007D3D;
     border-color: #007D3D;
