@@ -3,46 +3,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-/*
-    class special text
-*/
-@font-face {
-    font-family: 'vni-brush';
-    src: url('../webfonts/vni.common.VBRUSH.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'vni-cooper';
-    src: url('../webfonts/VCOOPERB.TTF') format('truetype');
-}
 
-@font-face {
-    font-family: 'vni-times';
-    src: url('../webfonts/vni.common.VTIMESB.ttf') format('truetype');
-}
-.sala {
-    font-family: vni-brush;
-    text-transform: capitalize;
-    color: white;
-}
-.sala_content {
-    font-family: vni-brush;
-    text-transform: none;
-    color: #FFF100;
-}
-.buffetchay {
-    font-family: vni-cooper;
-    color: #FFF100;
-    text-transform: uppercase;
-    font-size: 45px;
-    letter-spacing: .05em;
-}
-.dainamhung {
-    font-family: vni-times;
-    color: #C00000;
-}
-/*
-    class special text
-*/
 .img_main_buffet{
     height:300px
 }
@@ -872,7 +833,7 @@ a.sb {
 /*-- team --*/
 
 .w3-team {
-    background-color: #007D3D;
+    background-color: #C00000;
 }
 
 .w3-team-head h3 {
@@ -2027,24 +1988,73 @@ h2.logo-2 a {
 
 /*My style*/
 
+/*
+    class special text
+*/
+@font-face {
+    font-family: 'vni-brush';
+    src: url('../webfonts/vni.common.VBRUSH.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'vni-cooper';
+    src: url('../webfonts/VCOOPERB.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'vni-times';
+    src: url('../webfonts/vni.common.VTIMESB.ttf') format('truetype');
+}
+
+.sala {
+    font-family: vni-brush;
+    text-transform: capitalize;
+    color: white;
+}
+
+.sala_content {
+    font-family: vni-brush;
+    text-transform: none;
+    color: #FFF100;
+}
+
+.buffetchay {
+    font-family: vni-cooper;
+    color: #FFF100;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: .05em;
+}
+
+.dainamhung {
+    font-family: vni-times;
+    color: #C00000;
+}
+/*
+    class special text
+*/
+
 .nameDNH {
     /*chữ đỏ font arial*/
     color: #C00000;
-    font-family:'Times New Roman';
-    font-weight:600;
+    font-family: vni-times;
+    font-weight: 600;
 }
 .footer-name-company {
     font-size:large;
 }
 .footer-name-company-logo {
-    font-family: 'Times New Roman';
+    font-family:'Times New Roman';
 }
 .footer-name-company-full {
     font-size: large;
 }
 
 .footer-name-address {
-    font-family:VNI-Swiss-Condense;
+    font-family:'VNI-Swiss-Condense';
+}
+.footer-name-slogan {
+    font-family: vni-brush;
 }
 
 

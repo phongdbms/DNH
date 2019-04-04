@@ -8,23 +8,26 @@
                 <h2 class="logo-2 mb-lg-4 mb-3 text-center">
                     <a href="index.html"><img style=" align-content:center; width:50%" src="~/Content/logo/logo.png" /></a>
                 </h2>
-                <div class="footer-name-company-full ">
+                <div class="footer-name-company-full">
                     <div class="text-center">
-                        <p class="footer-name-company-logo">CÔNG TY TNHH <span class="dainamhung">ĐẠI NAM HƯNG</span></p>
+
+                        <span class="footer-name-company-logo">CÔNG TY TNHH <span class="dainamhung">ĐẠI NAM HƯNG</span></span>
                         <br />
-                        <p class="footer-name-company-logo">Nhà hàng tiệc cưới - Karaoke - Hotel</p>
+                        <span class="footer-name-slogan">@{Html.Raw("Nhà hàng tiệc cưới - Karaoke - Hotel");}</span>
                     </div>
-                    <br />
                     <br />
                     <div class="footer-name-address">
-                        <p>Địa chỉ: 319 - 321 - 327 Nơ Trang Long, P13, Quận Bình Thạnh, Tp.HCM.</p>
+                        <span>@{Html.Raw("Địa chỉ: 319 - 321 - 327 Nơ Trang Long, P13, Quận Bình Thạnh, Tp.HCM.");}</span>
 
-                        <p>VP:08 355 33 186  - Quầy:08.3055386</p>
+                        <span>@{Html.Raw("VP: 08 355 33 186 - Quầy:08.3055386");}</span>
 
-                        <p>Email: <a href="mailto:info@example.com">dnh@dainamhung.com</a></p>
+                        <span>Email: <a href="dnh@dainamhung.com">dnh@dainamhung.com</a></span>
 
-                        <p>Website: www.dainamhung.com.vn</p>
+                        <span>Website: www.dainamhung.com.vn</span>
+
                     </div>
+                    <br />
+                    <br />
                 </div>
             </div>
             <div class="col-lg-8 footer-right left-boder">
@@ -42,9 +45,6 @@
                     <div class="col-md-4">
                         <h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">THÔNG TIN</h3>
                         <ul class="list-unstyled w3layouts-icons">
-                            <li>
-                                <a href="index.html">Trang chủ</a>
-                            </li>
                             <li class="mt-3">
                                 <a href="about.html">Giới thiệu</a>
                             </li>
@@ -59,7 +59,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-4">
                         <div>
                             <h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Danh mục</h3>
                             <ul class="list-unstyled w3layouts-icons">
@@ -68,6 +68,13 @@
                                 <li class="mt-3"><a href="">Tiệc cưới</a></li>
                                 <li class="mt-3"><a href="">Liên hoan</a></li>
                                 <li class="mt-3"><a href="">Sinh nhật</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3"><br /></h3>
+                            <ul class="list-unstyled w3layouts-icons">
                                 <li class="mt-3"><a href="">Karaoke</a></li>
                                 <li class="mt-3"><a href="">Buffet chay</a></li>
                                 <li class="mt-3"><a href="">Massage</a></li>
@@ -77,6 +84,7 @@
                             </ul>
                         </div>
                     </div>
+
                 </div>
 
             </div>

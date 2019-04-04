@@ -43,11 +43,7 @@ namespace DaiNamHungProject.Controllers
         {
             return PartialView();
         }
-
-        public ActionResult Promotion()
-        {
-            return PartialView();
-        }
+      
 
         public ActionResult Footer()
         {
