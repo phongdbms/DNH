@@ -34,6 +34,16 @@ namespace DaiNamHungProject.Controllers
             return PartialView();
         }
 
+        public ActionResult Massage()
+        {
+            return PartialView();
+        }
+
+        public ActionResult Estate()
+        {
+            return PartialView();
+        }
+
         public ActionResult Contact()
         {
             return PartialView();
