@@ -139,16 +139,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\BannerSliderController.cs" />
-    <Compile Include="Controllers\BuffetController.cs" />
-    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\DetailBuffetController.cs" />
     <Compile Include="Controllers\DetailHotelController.cs" />
-    <Compile Include="Controllers\FooterController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\HotelController.cs" />
-    <Compile Include="Controllers\KaraokeController.cs" />
-    <Compile Include="Controllers\MapController.cs" />
-    <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\MainPageController.cs" />
+    <Compile Include="Controllers\MassageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -166,12 +161,18 @@
     <Content Include="Content\images\b1.jpg" />
     <Content Include="Content\images\b2.jpg" />
     <Content Include="Content\images\b3.jpg" />
+    <Content Include="Content\images\batdongsan.jpg" />
+    <Content Include="Content\images\batdongsan1.jpg" />
     <Content Include="Content\images\buffetchay.jpg" />
     <Content Include="Content\images\buffetchay1.jpg" />
     <Content Include="Content\images\buffetchay2.jpg" />
     <Content Include="Content\images\buffetchay3.jpg" />
     <Content Include="Content\images\buffetchay4.jpg" />
     <Content Include="Content\images\buffetchay5.jpg" />
+    <Content Include="Content\images\buffetchay6.jpg" />
+    <Content Include="Content\images\buffetchay7.jpg" />
+    <Content Include="Content\images\buffetchay8.jpg" />
+    <Content Include="Content\images\buffetchay9.jpg" />
     <Content Include="Content\images\cb.jpg" />
     <Content Include="Content\images\cbg.jpg" />
     <Content Include="Content\images\cs.jpg" />
@@ -188,6 +189,9 @@
     <Content Include="Content\images\hotel1.jpg" />
     <Content Include="Content\images\hotel10.jpg" />
     <Content Include="Content\images\hotel11.jpg" />
+    <Content Include="Content\images\hotel13.png" />
+    <Content Include="Content\images\hotel14.png" />
+    <Content Include="Content\images\hotel15.jpg" />
     <Content Include="Content\images\hotel2.jpg" />
     <Content Include="Content\images\hotel3.jpg" />
     <Content Include="Content\images\hotel4.jpg" />
@@ -206,10 +210,14 @@
     <Content Include="Content\images\karaoke7.jpg" />
     <Content Include="Content\images\karaoke8.jpg" />
     <Content Include="Content\images\karaoke9.jpg" />
+    <Content Include="Content\images\logo_cothongtin.png" />
+    <Content Include="Content\images\massagebanner1.jpg" />
+    <Content Include="Content\images\massagebanner2.jpg" />
     <Content Include="Content\images\n1.jpg" />
     <Content Include="Content\images\n2.jpg" />
     <Content Include="Content\images\n3.jpg" />
     <Content Include="Content\images\n4.jpg" />
+    <Content Include="Content\images\slogan.png" />
     <Content Include="Content\images\t1.jpg" />
     <Content Include="Content\images\t2.jpg" />
     <Content Include="Content\images\t3.jpg" />
@@ -226,6 +234,7 @@
     <Content Include="Content\js\responsiveslides.min.js" />
     <Content Include="Content\js\smoothbox.jquery2.js" />
     <Content Include="Content\js\SmoothScroll.min.js" />
+    <Content Include="Content\logo\logo.png" />
     <Content Include="Content\video\1.mp4" />
     <Content Include="Content\webfonts\fa-brands-400.svg" />
     <Content Include="Content\webfonts\fa-regular-400.svg" />
@@ -249,6 +258,11 @@
     <Content Include="Content\webfonts\fa-solid-900.woff2" />
     <Content Include="Content\webfonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\webfonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\webfonts\VCOOPERB.TTF" />
+    <Content Include="Content\webfonts\vni.common.VBRUSH.ttf" />
+    <Content Include="Content\webfonts\vni.common.VTIMESB.ttf" />
+    <Content Include="Content\webfonts\vni.common.VTIMESN.ttf" />
+    <None Include="Properties\PublishProfiles\DaiNamHungProject20190404013810 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -274,15 +288,23 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Menu\Index.cshtml" />
-    <Content Include="Views\BannerSlider\Index.cshtml" />
-    <Content Include="Views\Hotel\Index.cshtml" />
-    <Content Include="Views\Buffet\Index.cshtml" />
-    <Content Include="Views\Contact\Index.cshtml" />
-    <Content Include="Views\Map\Index.cshtml" />
-    <Content Include="Views\Karaoke\Index.cshtml" />
-    <Content Include="Views\Footer\Index.cshtml" />
     <Content Include="Views\DetailHotel\Index.cshtml" />
+    <Content Include="Views\DetailBuffet\Content.cshtml" />
+    <Content Include="Views\DetailBuffet\Index.cshtml" />
+    <Content Include="Views\MainPage\BannerSlider.cshtml" />
+    <Content Include="Views\MainPage\Buffet.cshtml" />
+    <Content Include="Views\MainPage\Contact.cshtml" />
+    <Content Include="Views\MainPage\Footer.cshtml" />
+    <Content Include="Views\MainPage\Hotel.cshtml" />
+    <Content Include="Views\MainPage\Karaoke.cshtml" />
+    <Content Include="Views\MainPage\Map.cshtml" />
+    <Content Include="Views\MainPage\Menu.cshtml" />
+    <Content Include="Views\DetailHotel\Content.cshtml" />
+    <Content Include="Views\DetailHotel\Map.cshtml" />
+    <Content Include="Views\DetailHotel\Menu.cshtml" />
+    <Content Include="Views\DetailHotel\Promotion.cshtml" />
+    <Content Include="Views\MainPage\Estate.cshtml" />
+    <Content Include="Views\MainPage\Massage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
